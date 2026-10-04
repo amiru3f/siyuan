@@ -1,0 +1,7 @@
+configuration:
+  access_auth_code:
+    name: Lock-screen code
+    description: Required code used to unlock the SiYuan web interface
+  language:
+    name: Interface language
+    description: Language applied when SiYuan starts

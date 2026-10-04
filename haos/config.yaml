@@ -1,0 +1,20 @@
+name: SiYuan
+version: "v3.8.6"
+slug: siyuan
+description: Privacy-first knowledge workspace with MCP support
+url: https://github.com/amiru3f/siyuan/tree/master/haos
+startup: application
+init: false
+arch:
+  - amd64
+ports:
+  6806/tcp: 6806
+map:
+  - type: data
+    path: /siyuan/workspace
+options:
+  access_auth_code: null
+  language: en
+schema:
+  access_auth_code: password
+  language: list(en|zh-CN|zh-TW|ja|pt-BR|es|fr|de|ru)
